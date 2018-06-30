@@ -56,6 +56,7 @@ mainServer = foo :<|> foo :<|> foo :<|> foo
     :<|> foo :<|> foo :<|> foo :<|> foo
     :<|> foo :<|> foo :<|> foo :<|> foo
 
+foo :: Handler Text
 foo = return "foo"
 
 main :: IO ()

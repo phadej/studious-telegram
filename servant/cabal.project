@@ -1,0 +1,18 @@
+with-compiler: ghc-8.4.3
+
+packages:
+  flat-8
+  flat-16
+  flat-32
+  flat-64
+
+--package servant-bench16
+--  ghc-options: -ddump-to-file -ddump-simpl-stats
+--
+--package servant-bench32
+--  ghc-options: -ddump-to-file -ddump-simpl-stats
+--
+--package servant-bench64
+--  ghc-options: -ddump-to-file -ddump-simpl-stats
+
+allow-newer: base
